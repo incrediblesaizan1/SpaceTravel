@@ -3,11 +3,7 @@ import React from 'react'
 import {motion} from "framer-motion"
 import { FADE } from '@/lib/data'
 
-interface Props {
-    children: React.ReactNode
-}
-
-const MotionDiv = ({children}: Props) => {
+const MotionDiv = ({children}) => {
   return (
     <motion.div initial="hidden" animate="visible" exit="exit" variants={FADE} key={Math.random().toString()}>
         {children}

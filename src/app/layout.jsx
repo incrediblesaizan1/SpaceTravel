@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import {  Bellefair, Barlow_Condensed } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -17,16 +16,14 @@ const barlow = Barlow_Condensed({
 })
 
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "SpaceShip",
   description: "Develop By Saizan",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body

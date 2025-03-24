@@ -1,11 +1,7 @@
 import React from 'react'
 
-interface PageTitleProps{
-    title: string;
-    number: number | string;
-}
 
-const PageTitle = ({title, number}: PageTitleProps) => {
+const PageTitle = ({title, number}) => {
   return (
     <div className='w-fit nav-text uppercase text-white md:text-[20px] md:tracking-[3.38px] lg:text-[28px] lg:tracking-[4.72px]'>
       <span className='inline-block font-bold opacity-25 mr-5'>

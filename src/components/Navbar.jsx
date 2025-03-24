@@ -31,7 +31,7 @@ const Navbar = () => {
 
     const [isOpen, setisOpen] = useState(true)
     const path = usePathname()
-    const isActive = useCallback((href: string)=>path == href, [path])
+    const isActive = useCallback((href)=>path == href, [path])
 
   return (
     <header className=' relative z-30 flex justify-between items-center px-6 md:px-0 md:pl-10 lg:pt-10'>

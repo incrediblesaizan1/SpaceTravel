@@ -2,13 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-interface BackgroundProps{
-    mobile: string,
-    tablet: string,
-    desktop: string
-}
-
-const Background = ({mobile, tablet, desktop}: BackgroundProps) => {
+const Background = ({mobile, tablet, desktop}) => {
   return (
     <div className='fixed z-0 h-screen w-screen top-0 left-0'>
       <picture>
