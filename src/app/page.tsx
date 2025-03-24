@@ -1,7 +1,6 @@
 "use client"
 import Background from "@/components/Background";
 import MotionDiv from "@/components/MotionDiv";
-import Image from "next/image";
 import mobile from "@/assets/home/background-home-mobile.jpg"
 import tablet from "@/assets/home/background-home-tablet.jpg"
 import dekstop from "@/assets/home/background-home-desktop.jpg"

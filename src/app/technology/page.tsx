@@ -13,7 +13,7 @@ import capsulePortrait from "@/assets/technology/image-space-capsule-portrait.jp
 import spaceportLandscape from "@/assets/technology/image-spaceport-landscape.jpg";
 import spaceportPortrait from "@/assets/technology/image-spaceport-portrait.jpg";
 import { usePrevious } from "@mantine/hooks";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { FADE, SLIDE_LEFT, SLIDE_RIGHT } from "@/lib/data";
 import Image from "next/image";
 

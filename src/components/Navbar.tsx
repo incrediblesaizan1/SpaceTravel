@@ -5,8 +5,7 @@ import { IoIosFlower } from "react-icons/io";
 import openIcon from "@/assets/shared/icon-hamburger.svg"
 import closeIcon from '@/assets/shared/icon-close.svg'
 import Link from 'next/link';
-import path from 'path';
-import { useParams, usePathname } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 
 const pages =[
