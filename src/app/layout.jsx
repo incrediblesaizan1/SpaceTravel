@@ -17,8 +17,11 @@ const barlow = Barlow_Condensed({
 
 
 export const metadata = {
-  title: "SpaceShip",
+  title: "SK'SpaceShip",
   description: "Develop By Saizan",
+  icons: {
+    icon: "/public/logo.svg",
+  },
 };
 
 export default function RootLayout({
