@@ -20,7 +20,7 @@ export const metadata = {
   title: "SK'SpaceShip",
   description: "Develop By Saizan",
   icons: {
-    icon: "/public/logo.svg",
+    icon: "/logo.svg",
   },
 };
 
